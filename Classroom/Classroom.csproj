@@ -50,6 +50,7 @@
     <Compile Include="Factorial.cs" />
     <Compile Include="countDiv.cs" />
     <Compile Include="LabArray.cs" />
+    <Compile Include="StopWatch.cs" />
     <Compile Include="StringUtility.cs" />
     <Compile Include="SumInputNummbers.cs" />
     <Compile Include="Program.cs" />

@@ -5,3 +5,10 @@ c:\users\mikhail\documents\visual studio 2017\Projects\Classroom\Classroom\bin\D
 c:\users\mikhail\documents\visual studio 2017\Projects\Classroom\Classroom\bin\Debug\Classroom.pdb
 c:\users\mikhail\documents\visual studio 2017\Projects\Classroom\Classroom\obj\Debug\Classroom.exe
 c:\users\mikhail\documents\visual studio 2017\Projects\Classroom\Classroom\obj\Debug\Classroom.pdb
+C:\Users\admin\source\repos\sharpbootcamp\Classroom\bin\Debug\Classroom.exe.config
+C:\Users\admin\source\repos\sharpbootcamp\Classroom\bin\Debug\Classroom.exe
+C:\Users\admin\source\repos\sharpbootcamp\Classroom\bin\Debug\Classroom.pdb
+C:\Users\admin\source\repos\sharpbootcamp\Classroom\obj\Debug\Classroom.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\sharpbootcamp\Classroom\obj\Debug\Classroom.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\sharpbootcamp\Classroom\obj\Debug\Classroom.exe
+C:\Users\admin\source\repos\sharpbootcamp\Classroom\obj\Debug\Classroom.pdb
