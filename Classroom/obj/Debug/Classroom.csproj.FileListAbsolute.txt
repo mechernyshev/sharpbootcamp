@@ -1,0 +1,7 @@
+c:\users\mikhail\documents\visual studio 2017\Projects\Classroom\Classroom\obj\Debug\Classroom.csprojResolveAssemblyReference.cache
+c:\users\mikhail\documents\visual studio 2017\Projects\Classroom\Classroom\obj\Debug\Classroom.csproj.CoreCompileInputs.cache
+c:\users\mikhail\documents\visual studio 2017\Projects\Classroom\Classroom\bin\Debug\Classroom.exe.config
+c:\users\mikhail\documents\visual studio 2017\Projects\Classroom\Classroom\bin\Debug\Classroom.exe
+c:\users\mikhail\documents\visual studio 2017\Projects\Classroom\Classroom\bin\Debug\Classroom.pdb
+c:\users\mikhail\documents\visual studio 2017\Projects\Classroom\Classroom\obj\Debug\Classroom.exe
+c:\users\mikhail\documents\visual studio 2017\Projects\Classroom\Classroom\obj\Debug\Classroom.pdb
