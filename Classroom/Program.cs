@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace Classroom
 {
 
+
     class Program
     {
         static void Main(string[] args)
@@ -26,7 +27,19 @@ namespace Classroom
             //FileUtil.excersice2(@"C:\Windows\System32\drivers\etc\hosts");
 
             //new section
-            PlayingWithStopWatch();
+            //PlayingWithStopWatch();
+
+
+            var post = new Post("Breaking news", "Robot chicken is alive");
+
+            for (int i = 0; i<5; i++)
+            {
+                post.UpVote();
+            }
+
+            post.ViewPost();
+
+            Console.WriteLine("voted by {0} of people", post.GetVoteNumber());
 
         }
 
