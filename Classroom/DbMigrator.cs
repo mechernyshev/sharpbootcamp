@@ -3,6 +3,10 @@
     public class DbMigrator
         {
 
+        public DbMigrator()
+        {
+
+        }
     }
 
 
