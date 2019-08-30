@@ -29,10 +29,50 @@ namespace Classroom
             //new section
             //PlayingWithStopWatch();
 
+            PlayingWithStack();
 
+            
+
+        }
+
+
+        static void PlayingWithStack()
+        {
+            var stack = new Stack();
+            stack.Push(1);
+            stack.Push("hello");
+            stack.Push(new StopWatch());
+
+             try
+            {
+                var lastItem = stack.Pop();
+                Console.WriteLine(lastItem.ToString());
+            }
+            catch (NullReferenceException)
+            {
+                Console.WriteLine("stack is empty");
+            }
+
+            stack.Clear();
+
+            try
+            {
+                var lastItem = stack.Pop();
+                Console.WriteLine(lastItem.ToString());
+            }
+            catch (NullReferenceException)
+            {
+                Console.WriteLine("stack is empty");
+            }
+
+
+        }
+
+        static void PlayingWithPosts()
+        {
             var post = new Post("Breaking news", "Robot chicken is alive");
 
-            for (int i = 0; i<5; i++)
+            for (int i = 0; i < 5; i++)
             {
                 post.UpVote();
             }
@@ -40,7 +80,6 @@ namespace Classroom
             post.ViewPost();
 
             Console.WriteLine("voted by {0} of people", post.GetVoteNumber());
-
         }
 
 
