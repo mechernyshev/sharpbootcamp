@@ -42,16 +42,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DateTimeExcersise.cs" />
+    <Compile Include="DbCommand.cs" />
+    <Compile Include="DbConnection.cs" />
     <Compile Include="DbMigrator.cs" />
     <Compile Include="DynamicList.cs" />
     <Compile Include="FileUtil.cs" />
     <Compile Include="NumberValidation.cs" />
     <Compile Include="Numbers.cs" />
+    <Compile Include="OracleConnection.cs" />
     <Compile Include="Post.cs" />
     <Compile Include="RandomPicker.cs" />
     <Compile Include="Factorial.cs" />
     <Compile Include="countDiv.cs" />
     <Compile Include="LabArray.cs" />
+    <Compile Include="SqlConnection.cs" />
     <Compile Include="Stack.cs" />
     <Compile Include="StopWatch.cs" />
     <Compile Include="StringUtility.cs" />

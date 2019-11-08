@@ -29,16 +29,29 @@ namespace Classroom
             //new section
             //PlayingWithStopWatch();
 
-            PlayingWithStack();
+            //PlayingWithStack();
 
+            PlayingWithDbConnection();
             
 
         }
 
 
+        static void PlayingWithDbConnection()
+        {
+            var oracleConnection = new OracleConnection("oracle: 192.168.172.10/admin/password");
+            var dbcommand1 = new DbCommand(oracleConnection);
+            dbcommand1.Execute("select * from tableA");
+
+            var sqlConnection = new SqlConnection("ms-sql: 172.10.10.15/admin/P2ssw0rd");
+            var dbcommand2 = new DbCommand(sqlConnection);
+            dbcommand2.Execute("select * from tableB");
+        }
+
         static void PlayingWithStack()
         {
             var stack = new Stack();
+            //stack.Push(null);
             stack.Push(1);
             stack.Push("hello");
             stack.Push(new StopWatch());
